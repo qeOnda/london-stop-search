@@ -1,13 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Test from './Test'
+import Mapper from './Mapper'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <h1 className="bg-red-100">Hello world</h1>
-      </div>
-    </div>
+	    <div className="mapContainer flex flex-col">
+			<div className="h-10">
+				<Test />
+			</div>	
+			
+			<div className="ml-5 mr-5">
+				<Mapper />
+			</div>
+
+			<div className="h-20">
+				<Test />
+			</div>	
+		</div>
   );
 }
 
