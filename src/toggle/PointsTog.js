@@ -18,12 +18,14 @@ function PointsTog(props) {
 					for (let i = 0; i < setter.length; i++) {
 						if (setter[i].includes(item.name))
 							setter.splice(i, 1);
+							map.setFilter('circles', setter)
 							setFilter(setter)  	
 					}
 				} else if (item.checked === false && item.name === selected) {
 					setter = filter
 					var maker = ["in", item.cat, item.name]
 					setter.push(maker)
+					map.setFilter('circles', setter)
 					setFilter(setter)			
 				}
 			})
