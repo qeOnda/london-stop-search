@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function TogTog(props) {
 	const map = props.map
-	const [on, setOn] = useState(false)
+	const [on, setOn] = useState(true)
 
 	const changeState = () => {
 		if (on)  {
@@ -20,6 +20,7 @@ function TogTog(props) {
 				onClick={() => changeState()}			          
 				name="toggle"
 				type="checkbox"	
+				checked={on}
 			/>
 		</div>	
 	)

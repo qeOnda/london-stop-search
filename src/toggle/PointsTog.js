@@ -49,7 +49,7 @@ function PointsTog(props) {
 			<Optionsfield 
 				// cat="Age Range"
 				changeState={changeState}  
-				toggle={props.categories}			
+				toggle={props.categories}		
 			/>
 		</div>
 	)

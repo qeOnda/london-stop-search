@@ -7,7 +7,8 @@ const Optionsfield = (props) => {
 				  <input
 			          onClick={() => props.changeState(i)}			          
 			          name="toggle"
-			          type="checkbox"			          
+			          type="checkbox"		
+			          checked={!option.checked}
 			        />
 				<div>{option.name}</div>						
 			</label> 

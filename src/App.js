@@ -2,10 +2,9 @@ import Test from './Test'
 import Mapper from './Mapper'
 
 
-
 function App() {
   return (
-	    <div className="mapContainer flex flex-col">
+	    <div className="flex flex-col h-screen">
 			<div className="h-10">
 				<Test />
 			</div>	
