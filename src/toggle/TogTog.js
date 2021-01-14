@@ -17,7 +17,7 @@ function TogTog(props) {
 		<div>
 			<p>DOTS ON/OFF</p>
 			<input
-				onClick={() => changeState()}			          
+				onChange={() => changeState()}			          
 				name="toggle"
 				type="checkbox"	
 				checked={on}

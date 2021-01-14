@@ -16,6 +16,8 @@ const Tooltip = ({ feature }) => {
       <strong>Purpose of Stop:</strong> {feature.properties.purpose}
       <br />
       <strong>Outcome:</strong> {feature.properties.outcome}
+      <br />
+      <strong>Officer Ethnicity:</strong> {feature.properties.officer_ethnicity}
     </div>
   );
 };
