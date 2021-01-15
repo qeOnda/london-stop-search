@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AllDrops from '../components/AllDrops'
+import Reset from './Reset'
 
 
 function PointsTog(props) {
@@ -31,13 +32,21 @@ function PointsTog(props) {
 	
 	console.log(filter)
 
+
 	return (
-		<div className="pt-10 ">
-			<AllDrops
-				categories={categories}
-				handleChange={handleChange}
-			/>
-		</div>
+		<div>
+			<div className="pt-10 ">
+				<AllDrops
+					categories={categories}
+					handleChange={handleChange}
+				/>
+			</div>	
+			<div className="pt-5">
+				<Reset
+					map={map}
+				/>
+			</div>
+		</div>	
 	)
 }
 
