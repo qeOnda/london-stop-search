@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AllDrops from '../components/AllDrops'
-import Reset from './Reset'
+
 
 
 function PointsTog(props) {
@@ -14,6 +14,11 @@ function PointsTog(props) {
 			...filter,
 			[e.target.name]: e.target.value
 		})
+	}
+
+	const handleReset = () => {
+		setFilter()
+		map.setFilter('circles', null)
 	}
 
 
@@ -34,18 +39,12 @@ function PointsTog(props) {
 
 
 	return (
-		<div>
-			<div className="pt-10 ">
-				<AllDrops
-					categories={categories}
-					handleChange={handleChange}
-				/>
-			</div>	
-			<div className="pt-5">
-				<Reset
-					map={map}
-				/>
-			</div>
+		<div className="pt-10 ">
+			<AllDrops
+				categories={categories}
+				handleChange={handleChange}
+				handleReset={handleReset}
+			/>
 		</div>	
 	)
 }
