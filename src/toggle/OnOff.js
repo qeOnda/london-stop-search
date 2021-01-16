@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function TogTog(props) {
+function OnOff(props) {
 	const map = props.map
 	const [on, setOn] = useState(true)
 
@@ -26,4 +26,4 @@ function TogTog(props) {
 	)
 }
 
-export default TogTog;
+export default OnOff;

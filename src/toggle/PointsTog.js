@@ -5,38 +5,43 @@ import AllDrops from '../components/AllDrops'
 
 function PointsTog(props) {
 	const map = props.map
-	const [filter, setFilter] = useState()
+	const [filterer, setFilterer] = useState()
 	const categories = props.categories
 
 
 	const handleChange = e => {
-		setFilter({
-			...filter,
+		setFilterer({
+			...filterer,
 			[e.target.name]: e.target.value
 		})
 	}
 
 	const handleReset = () => {
-		setFilter()
+		setFilterer()
 		map.setFilter('circles', null)
 	}
 
 
 	useEffect(() => {
 		if(map){
-			if (filter){
+			if (filterer){
 				var f = ["all", ]
-				for(const [key, value] of Object.entries(filter)) {
-					let i = ["in", key, value]
-					f.push(i)
+				const checker = {...filterer}
+
+				// console.log	(checker)
+				for(const [key, value] of Object.entries(checker)) {
+					if (value === "All"){
+						delete checker[key]						
+					} else {
+						let i = ["in", key, value]
+						f.push(i)
+					}
 				}	
 				map.setFilter('circles', f)
 			}
 		}
 	})
 	
-	console.log(filter)
-
 
 	return (
 		<div className="pt-10 ">
