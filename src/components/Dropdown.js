@@ -2,7 +2,7 @@ const Dropdown = ({ categories, handleChange, cattype, tag }) => {
 
 	return (
 		<div className="col-span-6 sm:col-span-3 pl-3 pr-3">
-			<label className="block text-sm font-medium text-gray-700">{tag}</label>
+			<label className="block text-sm font-medium text-gray-900">{tag}</label>
 			<select 
 				onChange={handleChange} 
 				name={cattype} 
