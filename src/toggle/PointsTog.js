@@ -7,6 +7,7 @@ function PointsTog(props) {
 	const [filterer, setFilterer] = useState()
 	const categories = props.categories
 
+
 	const handleChange = e => {
 		setFilterer({
 			...filterer,
@@ -18,7 +19,6 @@ function PointsTog(props) {
 		setFilterer()
 		map.setFilter('circles', null)
 	}
-
 
 	useEffect(() => {
 		if(map){
@@ -40,51 +40,6 @@ function PointsTog(props) {
 		}
 	})
 	
-////////////////////////////////////////////////////////////////////////////////////
-
-	// const [f, setF] = useState()
-	// const [test, setTest] = useState("Female")
-
-	// const getData=()=>{
-	// 	fetch('points.geojson'
-	// 	,{
-	// 		headers : { 
-	// 			'Content-Type': 'application/json',
-	// 			'Accept': 'application/json'
-	// 		}
-	// 	})
-	// 	.then(function(response){
-	// 		// console.log(response)
-	// 		return response.json();
-	// 	})
-	// 	.then(function(myJson) {
-	// 		const foo = myJson
-	// 		setF(foo);
-	// 	});
-	// }
-	
-	
-	// const handleTest = () => {
-	// 	setTest("Male")
-	// 	console.log(test)
-	// }
-
-	// useEffect(()=>{
-	// 	getData()
-	// 	if (test && f) {
-	// 		var geojson = {
-	// 		  "type": "FeatureCollection",
-	// 		  "features": []
-	// 		};
-
-	// 		var b = f.features.filter(feature => feature.properties.gender === test)
-	// 		geojson.features.push(b)
-	// 		map.getSource('points').setData(geojson);
-	// 		// console.log(map.getSource('points'))
-	// 	}
-	// }, [test])
-
-
 
 	return (
 		<div className="pt-10 ">
@@ -99,8 +54,3 @@ function PointsTog(props) {
 
 export default PointsTog;
 
-
-
-	//<div className="mt-4 bg-red">
-					//<button onClick={handleTest}>Click Me</button>
-			//</div>	

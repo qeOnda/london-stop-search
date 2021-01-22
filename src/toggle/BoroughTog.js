@@ -31,15 +31,3 @@ function BoroughTog(props) {
 }
 
 export default BoroughTog;
-
-
-
-
-// <div>
-// 	<p>HEATMAP ON/OFF</p>
-// 	<input
-// 		onClick={() => changeState()}			          
-// 		name="toggle"
-// 		type="checkbox"	
-// 	/>
-// </div>	

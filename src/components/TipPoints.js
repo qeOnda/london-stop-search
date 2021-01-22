@@ -9,15 +9,13 @@ const Tooltip = ({ feature }) => {
       <br />
       <strong>Gender:</strong> {feature.properties.gender}
       <br />
-      <strong>Age:</strong> {feature.properties.age_range}
+      <strong>Age:</strong> {feature.properties.age}
       <br />
       <strong>Ethnicity:</strong> {feature.properties.ethnicity}
       <br />
       <strong>Purpose of Stop:</strong> {feature.properties.purpose}
       <br />
       <strong>Outcome:</strong> {feature.properties.outcome}
-      <br />
-      <strong>Officer Ethnicity:</strong> {feature.properties.officer_ethnicity}
     </div>
   );
 };

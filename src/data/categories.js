@@ -10,12 +10,12 @@ export const categories =
 		{name: "Vehicle search", cat: "type"},
 		{name: "Person and Vehicle search", cat: "type"},
 	
-		{name: "All", cat: "age_range"},
-		{name: "under 10", cat: "age_range"},
-		{name: "10-17", cat: "age_range"},
-		{name: "18-24", cat: "age_range"},
-		{name: "25-34", cat: "age_range"},
-		{name: "over 34", cat: "age_range"},
+		{name: "All", cat: "age"},
+		{name: "under 10", cat: "age"},
+		{name: "10-17", cat: "age"},
+		{name: "18-24", cat: "age"},
+		{name: "25-34", cat: "age"},
+		{name: "over 34", cat: "age"},
 	
 		{name: "All", cat: "ethnicity"},
 		{name: "Asian", cat: "ethnicity"},
@@ -43,10 +43,5 @@ export const categories =
 		{name: "Offensive weapons", cat: "purpose"},
 		{name: "Stolen goods", cat: "purpose"},
 		
-		{name: "All", cat: "officer_ethnicity"},
-		{name: "Asian - officer", cat: "officer_ethnicity"},
-		{name: "Black - officer", cat: "officer_ethnicity"},
-		{name: "White - officer", cat: "officer_ethnicity"},
-		{name: "Other - officer", cat: "officer_ethnicity"},
 	]
 

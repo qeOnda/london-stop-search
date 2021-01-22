@@ -27,7 +27,7 @@ function OnOff(props) {
 					'circle-color': 'red'
 				},
 				layout: {
-					'visibility': 'visible'
+					'visibility': 'visible',
 				},
 			});
 			map.on('render', stopSpinner);
