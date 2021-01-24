@@ -1,20 +1,28 @@
-import Test from './Test'
+import React, { useState } from 'react'
+import Sidebar from './Sidebar'
 import Mapper from './Mapper'
 
 
 function App() {
-  return (
-	    <div className="flex flex-col h-screen">
-			<div className="h-10">
-				<Test />
-			</div>	
-			
-			<div className="ml-5 mr-5">
-				<Mapper />
-			</div>
+  	const [show, setShow] = useState(false)
 
-			<div className="h-20">
-				<Test />
+  	const openModal = () => setShow(true)
+	const closeModal = () => setShow(false)
+
+  return (
+	    <div className="flex flex-row h-full">
+			<div className="w-1/12">
+				<Sidebar 					
+					openModal={openModal}	
+					closeModal={closeModal}			
+				/>
+			</div>
+			<div className="w-11/12">
+				<Mapper 
+					show={show}
+					setShow={setShow}
+					closeModal={closeModal}			
+				/>
 			</div>	
 		</div>
   );
