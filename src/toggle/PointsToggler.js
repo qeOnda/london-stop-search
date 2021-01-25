@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import AllDrops from '../components/AllDrops'
 
 
-function PointsTog(props) {
+function PointsToggler(props) {
 	const map = props.map
 	const [filterer, setFilterer] = useState()
 	const categories = props.categories
@@ -42,7 +42,7 @@ function PointsTog(props) {
 	
 
 	return (
-		<div className="pt-10 ">
+		<div className="">
 			<AllDrops
 				categories={categories}
 				handleChange={handleChange}
@@ -52,5 +52,5 @@ function PointsTog(props) {
 	)
 }
 
-export default PointsTog;
+export default PointsToggler;
 

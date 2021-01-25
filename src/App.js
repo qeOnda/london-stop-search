@@ -4,24 +4,36 @@ import Mapper from './Mapper'
 
 
 function App() {
-  	const [show, setShow] = useState(false)
+  	const [showAbout, setShowAbout] = useState(false)
+  	const [showData, setShowData] = useState(false)
 
-  	const openModal = () => setShow(true)
-	const closeModal = () => setShow(false)
+  	const toggleAbout = () => {
+  		setShowAbout(!showAbout)
+  		if(showData){
+  			setShowData(!showData)
+  		}
+  	}
+	const toggleData = () => {
+		setShowData(!showData)
+		if(showAbout){
+  			setShowAbout(!showAbout)
+  		}
+	}
 
   return (
 	    <div className="flex flex-row h-full">
 			<div className="w-1/12">
 				<Sidebar 					
-					openModal={openModal}	
-					closeModal={closeModal}			
+					toggleAbout={toggleAbout}	
+					toggleData={toggleData}			
 				/>
 			</div>
 			<div className="w-11/12">
 				<Mapper 
-					show={show}
-					setShow={setShow}
-					closeModal={closeModal}			
+					showAbout={showAbout}
+					showData={showData}
+					toggleAbout={toggleAbout}
+					toggleData={toggleData}
 				/>
 			</div>	
 		</div>

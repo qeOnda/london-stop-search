@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Switch from "react-switch";
 
-function BoroughTog(props) {
+function BoroughToggler(props) {
 	const map = props.map
 	const [on, setOn] = useState(true)
 
@@ -17,7 +17,7 @@ function BoroughTog(props) {
 	return (
 		<div>
 			<label>
-	        	<span>HEATMAP ON/OFF</span>
+	        	<span className="font-mono">HEATMAP</span>
 		        <Switch 
 		        	onChange={() => changeState()}			          
 		        	height={14}
@@ -30,4 +30,4 @@ function BoroughTog(props) {
 	)
 }
 
-export default BoroughTog;
+export default BoroughToggler;

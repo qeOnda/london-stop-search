@@ -51,7 +51,7 @@ function OnOff(props) {
 	        		<div className='flex-child loading'></div>
 	    		</div>
 				<label>
-		        	<span>Points ON/OFF</span>
+		        	<span className="font-mono">POINTS</span>
 			        <Switch 
 			        	onChange={() => changeState()}			          
 			        	checked={on}
@@ -66,7 +66,7 @@ function OnOff(props) {
 		return (
 			<div>
 				<label>
-		        	<span>Points ON/OFF</span>
+		        	<span className="font-mono">POINTS</span>
 			        <Switch 
 			        	onChange={() => changeState()}			          
 			        	checked={on}

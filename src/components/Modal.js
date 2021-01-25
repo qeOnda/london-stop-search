@@ -6,13 +6,13 @@ function Modal(props) {
 	return (
 		<div className={props.show ? "modal": "hide"}>
 			<button 
-				onClick={props.closeModal}
-				className="pt-1 pr-1 absolute top-0 right-0"
+				onClick={props.toggler}
+				className="absolute top-0 right-0 h-10 w-10 hover:bg-yellow-500 active:bg-yellow-600 text-center text-xl"
 			>
 				X
 			</button>
-			<div className="pt-5 pl-3">
-				<p>HELLO WORLD</p>
+			<div className="pt-10 pl-3 font-mono">
+				{props.text}
 			</div>	
 		</div>
 	)

@@ -15,7 +15,7 @@ function AllDrops (props) {
 
 	const renderDrops = (option) => {
 		return (
-			<div className="">
+			<div className="pt-2">
 				<Dropdown 
 					categories={props.categories}
 					handleChange={props.handleChange}
@@ -32,7 +32,7 @@ function AllDrops (props) {
 			{cats.map(renderDrops)}
 				<div className="pt-4">
 					<Reset 
-						handleReset={props.handleReset}				
+						handleReset={props.handleReset}						
 					/>
 				</div>				
 			</form>	
