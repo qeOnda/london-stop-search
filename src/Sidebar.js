@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import logo from './log.svg'
+import logo from './logo.svg'
 
 
 function Sidebar(props){
@@ -11,7 +11,7 @@ function Sidebar(props){
 				<img 
 					src={logo} 
 					alt="logo" 
-					className="w-10 h-10"
+					className="w-8 h-8"
 				/>
 			</div>
 			<div className="pt-14 justify-between flex items-center flex-col h-full">

@@ -13,7 +13,7 @@ function Modal(props) {
 			</button>
 			<div className="pt-10 pl-3 font-mono">
 				{props.text}
-			</div>	
+			</div>					
 		</div>
 	)
 }
