@@ -11,7 +11,7 @@ function Modal(props) {
 			>
 				X
 			</button>
-			<div className="pt-10 pl-3 font-mono">
+			<div className="pt-12 pl-3 font-mono text-xs md:text-sm">
 				{props.text}
 			</div>					
 		</div>

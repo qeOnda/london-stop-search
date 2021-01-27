@@ -14,7 +14,7 @@
 
 @media (max-width: 768px) {
 	.modal {
-	  width: 50%;
+	  width: 60%;
 	  height: 100%;
 	  z-index: 1;
 	  position: fixed;
@@ -23,14 +23,6 @@
 	}
 }
 
-.modal1 {
-  width: 40%;
-  height: 100%;
-  z-index: 1;
-  position: fixed;
-  --tw-bg-opacity: 1;
-  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
-}
 
 .hide {
   display: none;

@@ -7,7 +7,9 @@ export const about = (
 		<p className="mt-2">
 			London Stop & Search is an interactive map that plots police stops that occured in 2019. 
 			Users can filter stops according to variables.
-			This app is best viewed in desktop.
+		</p>
+		<p className="mt-2">
+			<strong>This app is best viewed on desktop :)</strong>
 		</p>
 	</div>
 )
