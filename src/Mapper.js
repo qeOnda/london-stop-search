@@ -11,6 +11,8 @@ import Modal from './components/Modal'
 import { about } from './text-files/about'
 import { data } from './text-files/data-about'
 
+import Legend from './components/Legend'
+
 
 const { REACT_APP_MY_ENV } = process.env;
 mapboxgl.accessToken = REACT_APP_MY_ENV 
@@ -166,6 +168,7 @@ function Mapper(props) {
 				className="bg-yellow-200"
 			/>
 			<div ref={mapContainerRef} className="h-screen w-3/4"/>
+			<Legend />
 			<div className="w-1/4 bg-yellow-500">
 				<div className="pt-5 font-mono text-2xl md:text-4xl font-bold lg:text-5xl text-center">
 					<span>London<br />Stop &<br />Search</span>

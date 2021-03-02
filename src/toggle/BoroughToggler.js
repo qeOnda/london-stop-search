@@ -17,7 +17,7 @@ function BoroughToggler(props) {
 	return (
 		<div>
 			<label>
-	        	<span className="font-mono">HEATMAP</span>
+	        	<span className="font-mono">CHOROPLETH</span>
 		        <Switch 
 		        	onChange={() => changeState()}			          
 		        	height={14}

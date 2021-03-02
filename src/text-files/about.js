@@ -9,7 +9,7 @@ export const about = (
 			an offence has been committed. To read about your rights in these situations visit this <a className="text-yellow-500 hover:text-yellow-600" target="_blank" rel="noreferrer" href="https://www.libertyhumanrights.org.uk/advice_information/stop-and-search/">page</a>.   
 		</p>
 		<p className="mt-2">
-			Turn on/off the heatmap and stop & search location points from the panel to the right.   
+			Turn on/off the choropleth map and stop & search location points from the panel to the right.   
 			Additionally, stop & searches can be filtered according to several variables including the ethnicity, age range, and gender of the people questioned. 
 		</p>
 		<p className="mt-2">
