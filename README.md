@@ -3,6 +3,8 @@ London Stop & Search is an interactive map that plots all police stop & searches
 
 In the UK, police officers have the power to conduct stop & searches if they have "reasonable grounds" to suspect that an offence has been committed. To read about your rights in these situations visit this [page](https://www.libertyhumanrights.org.uk/advice_information/stop-and-search/).  
 
+Check it out here: https://london-stop-search-map.netlify.app/
+
 ### Data
 This project was created at the end of 2020 and uses data from the 2019 calendar year. The reason for this is that we wanted to use pre-COVID data to get a better sense of stop & searches: the hypothesis being that there were less foot traffic and therefore less stops in 2020 due to the pandemic.
 
