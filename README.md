@@ -17,6 +17,7 @@ $ git clone https://github.com/qeOnda/london-stop-search
 ```
 Then install dependencies and run on localhost: 
 ```
+$ cd london-stop-search
 $ yarn install
 $ yarn start
 ```
