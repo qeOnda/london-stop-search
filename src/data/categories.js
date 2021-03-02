@@ -22,8 +22,8 @@ export const categories =
 		{name: "Black", cat: "ethnicity"},
 		{name: "White", cat: "ethnicity"},
 		{name: "Other", cat: "ethnicity"},
-		{name: "Not stated", cat: "ethnicity"},
 		{name: "Mixed group", cat: "ethnicity"},
+		{name: "Not stated", cat: "ethnicity"},		
 	
 		{name: "All", cat: "outcome"},
 		{name: "A no further action disposal", cat: "outcome"},

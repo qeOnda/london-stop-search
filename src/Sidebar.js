@@ -32,7 +32,7 @@ function Sidebar(props){
 					</button>				
 				</div>
 				<div className="pb-10">
-					<a href="https://github.com/qeOnda/london-stop-search" target="_blank">
+					<a href="https://github.com/qeOnda/london-stop-search" target="_blank" rel="noreferrer">
 						<FontAwesomeIcon icon={faGithub} size="2x" className="fill-current text-yellow-500 hover:text-yellow-600 "/>
 					</a>	
 				</div>
