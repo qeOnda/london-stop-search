@@ -15,7 +15,7 @@ export const data = (
 			You can find more information on UK Census ethnic grouping <a className="text-yellow-500 hover:text-yellow-600" href="https://www.ethnicity-facts-figures.service.gov.uk/style-guide/ethnic-groups" rel="noreferrer" target="_blank">here</a>. 
 		</p>
 		<p className="mt-2">
-			Secondly, data points that were incomplete were omitted from the dataset. For data cleaning methods please refer to this <a className="text-yellow-500 hover:text-yellow-600" href="https://github.com/qeOnda/points_json/blob/main/data_clean.ipynb" rel="noreferrer" target="_blank">notebook</a>. 
+			Secondly, data points that were incomplete were omitted from the dataset. For data cleaning methods please refer to this <a className="text-yellow-500 hover:text-yellow-600" href="https://github.com/qeOnda/london-stop-search/blob/main/data_clean.ipynb" rel="noreferrer" target="_blank">notebook</a>. 
 		</p>
 		<p className="mt-2">
 			You can find the repo with source data <a className="text-yellow-500 hover:text-yellow-600" href="https://github.com/qeOnda/points_json" rel="noreferrer" target="_blank">here</a>.
