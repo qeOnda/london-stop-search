@@ -5,14 +5,14 @@ In the UK, police officers have the power to conduct stop & searches if they hav
 
 Check it out here: https://london-stop-search-map.netlify.app/
 
-### Data
+## Data
 This project was created at the end of 2020 and uses data from the 2019 calendar year. The reason for this is that we wanted to use pre-COVID data to get a better sense of stop & searches: the hypothesis being that there were less foot traffic and therefore less stops in 2020 due to the pandemic.
 
 Data for this project was downloaded from data.police.uk &mdash; you can find the link [here](https://data.police.uk/data/).  
 
 Please refer to the [notebook](data_clean.ipynb) to see how data was cleaned. 
 
-### Install 
+## Install 
 To install on your local environment clone the repo:
 ```
 $ git clone https://github.com/qeOnda/london-stop-search
