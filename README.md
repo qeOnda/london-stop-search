@@ -23,7 +23,12 @@ $ cd london-stop-search
 $ yarn install
 $ yarn start
 ```
-Make sure to save your own Mapbox access token in an env file at `./src/Mapper.js`
+Make sure to save your own Mapbox access token in an env file at `./src/Mapper.js`. 
+
+## Useful Resources
+Great examples of how to use React with Mapbox [here](https://github.com/mapbox/mapbox-react-examples) in the official Mapbox repo.
+
+
 
 
 
