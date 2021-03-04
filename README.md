@@ -26,8 +26,10 @@ $ yarn start
 Make sure to save your own Mapbox access token in an env file at `./src/Mapper.js`. 
 
 ## Useful Resources
-Great examples of how to use React with Mapbox [here](https://github.com/mapbox/mapbox-react-examples) in the official Mapbox repo.
+Great examples of how to use React with Mapbox in the official Mapbox repo and tutorial page.  
 
+https://github.com/mapbox/mapbox-react-examples  
+https://docs.mapbox.com/help/tutorials/#web-apps
 
 
 
