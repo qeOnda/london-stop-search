@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+Code quality here isn't the best if I'm being honest but this was the first project I made that I was really proud of so I like keeping this public. Maybe one day I'll palm this off to CC for a rewrite...
+
 # London Stop & Search
 London Stop & Search is an interactive map that plots all police stop & searches that occurred in 2019. It uses [React](https://reactjs.org/) and [Mapbox](https://www.mapbox.com/).  
 
